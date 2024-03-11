@@ -2,6 +2,8 @@
 
 Dark theme based on color schema Monokai, with semantic highlighting
 
+[Base version](https://github.com/goliafrs/monokai) | Semantic highlighting
+
 ## Installation
 
 Launch VS Code, quick open `Ctrl+P`, paste the following command, and press enter.
@@ -9,6 +11,11 @@ Launch VS Code, quick open `Ctrl+P`, paste the following command, and press ente
 ```bash
 ext install monokai-semantic
 ```
+
+Links to marketplace:
+
+- [Monokai GRS](https://marketplace.visualstudio.com/items?itemName=goliafrs.monokai-grs)
+- [Monokai Semantic](https://marketplace.visualstudio.com/items?itemName=goliafrs.monokai-semantic)
 
 ## Screenshot
 
