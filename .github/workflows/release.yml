@@ -34,16 +34,14 @@ jobs:
       - name: Audit signatures
         run: npm audit signatures
       - name: Release
-        id: release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: echo "::set-output name=version::$(npx semantic-release)"
+        run: npx semantic-release
 
   deploy:
     name: Deploy
     needs: release
     runs-on: ubuntu-latest
-    if: needs.release.outputs.version != 'null'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
