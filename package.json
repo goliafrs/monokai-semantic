@@ -2,7 +2,7 @@
   "name": "monokai-semantic",
   "displayName": "Monokai Semantic",
   "description": "Dark theme based on color schema Monokai, with semantic highlighting",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "publisher": "goliafrs",
   "engines": {
     "vscode": "^1.13.0"
