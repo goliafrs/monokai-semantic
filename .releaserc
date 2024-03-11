@@ -1,10 +1,10 @@
 {
-  "branches": "master",
+  "branches": "main",
   "ci": true,
   "debug": false,
   "dryRun": false,
   "tagFormat": "v${version}",
-  "repositoryUrl": "https://github.com/goliafrs/monokai.git",
+  "repositoryUrl": "https://github.com/goliafrs/monokai-semantic.git",
   "plugins": [
     [
       "@semantic-release/commit-analyzer"
@@ -20,8 +20,7 @@
       {
         "message": "Release: v${nextRelease.version}",
         "assets": [
-          "package.json",
-          "package-lock.json"
+          "package.json"
         ]
       }
     ],
