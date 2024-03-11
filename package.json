@@ -1,0 +1,50 @@
+{
+  "name": "monokai-semantic",
+  "displayName": "Monokai Semantic",
+  "description": "Dark theme based on color schema Monokai, with semantic highlighting",
+  "version": "0.0.0",
+  "publisher": "goliafrs",
+  "engines": {
+    "vscode": "^1.13.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monokai Semantic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai-semantic.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goliafrs/monokai-semantic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/goliafrs/monokai-semantic/issues"
+  },
+  "homepage": "https://github.com/goliafrs/monokai-semantic/blob/master/README.md",
+  "keywords": [
+    "vscode",
+    "theme",
+    "monokai",
+    "semantic",
+    "dark"
+  ],
+  "author": {
+    "name": "goliafrs",
+    "email": "goliaf.rs@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@semantic-release/commit-analyzer": "^11.1.0",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.2.6",
+    "@semantic-release/npm": "^11.0.3",
+    "semantic-release": "^23.0.2"
+  }
+}
