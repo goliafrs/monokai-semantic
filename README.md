@@ -44,12 +44,6 @@ JS example code:
 - [x] Elixir
 - [x] Markdown
 
-## Donate
-
-If you want to support me and my project:
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/goliafrs)
-
 ## License
 
 [MIT License](https://github.com/goliafrs/monokai-semantic/blob/main/LICENSE)
